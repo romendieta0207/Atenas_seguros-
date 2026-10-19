@@ -60,14 +60,14 @@ h2{font-family:var(--serif);font-weight:400;color:var(--blue);font-size:clamp(1.
 .aliados-track img{flex:0 0 auto;width:auto;max-width:min(280px,70vw);height:96px;object-fit:contain;margin-inline:1.5rem}
 @keyframes aliados-marquee{to{transform:translateX(-50%)}}
 
-.oferta{position:relative;text-align:center;color:#fff;padding:6.5rem 5vw 6rem;background:linear-gradient(#0a1d45cc,#0a1d45e6),url(../img/edificio-nuevo.jpg) center/cover}
+.oferta{position:relative;text-align:center;color:#fff;padding:6.5rem 5vw 6rem;background:linear-gradient(#0a1d45a6,#0a1d45c7),url(../img/nosotros-fondo.jpg) center/cover}
 .oferta::before,.oferta::after{content:"";position:absolute;left:-10%;right:-10%;height:140px;background:#fff;border-radius:50%}
 .oferta::before{top:-90px}.oferta::after{bottom:-90px}
 .serif-i{font-family:var(--serif);font-style:italic;font-size:2rem;opacity:.9}
 .oferta h2{font-family:var(--sans);font-weight:700;color:var(--gold);font-size:clamp(2.2rem,4vw,3.25rem);margin:.3rem 0 2.2rem}
 .cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2.5rem;max-width:1320px;width:100%;margin:auto}
 .offer-icon{display:grid;place-items:center;width:104px;height:104px;margin:0 auto 1.4rem;border-radius:50%;background:#fff}
-.offer-icon svg{width:58px;height:58px;fill:none;stroke:var(--blue);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.offer-icon img{width:100%;height:100%;object-fit:contain}
 .cols h3{font-size:1.25rem;letter-spacing:.04em;text-transform:uppercase;margin-bottom:1.1rem}
 .cols p{border-top:1px solid #fff4;padding-top:1rem;font-size:1.35rem;line-height:1.45;opacity:.9}
 
