@@ -3,7 +3,7 @@
 html{scroll-behavior:smooth;scroll-padding-top:90px}
 html{background:#fff;overflow-x:clip}
 body{position:relative;font-family:var(--sans);color:var(--ink);line-height:1.5;overflow-x:hidden;background:transparent}
-body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:url(../img/hero-ciudad.webp) center/cover no-repeat;filter:grayscale(1);opacity:.3}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:url(../img/hero-ciudad.jpg) center/cover no-repeat;filter:grayscale(1);opacity:.3}
 img{max-width:100%;display:block}
 a{color:inherit;text-decoration:none}
 :focus-visible{outline:3px solid var(--gold);outline-offset:3px}
@@ -52,15 +52,15 @@ h2{font-family:var(--serif);font-weight:400;color:var(--blue);font-size:clamp(1.
 .e-est{right:0;bottom:0;width:49%;height:48%;border-radius:22px;border:6px solid #fff}
 .c2 .shield{left:7%;top:53%;width:29%}
 
-.aliados{text-align:center;padding:1.5rem 5vw 5rem;background:rgba(255,255,255,.88);overflow:hidden}
+.aliados{display:flex;flex-direction:column;justify-content:center;min-height:18.5rem;text-align:center;padding:1.5rem 5vw 5rem;background:rgba(255,255,255,.88);overflow:hidden}
 .aliados h2{color:var(--ink);font-family:var(--sans);font-weight:500;font-size:1.5rem;margin-bottom:1.2rem}
 .aliados-marquee{width:100%;overflow:hidden}
-.aliados-track{display:flex;width:max-content;animation:aliados-marquee 30s linear infinite}
+.aliados-track{display:flex;width:max-content;animation:aliados-marquee 58s linear infinite}
 .aliados-track:hover{animation-play-state:paused}
-.aliados-track img{flex:0 0 min(900px,80vw);width:min(900px,80vw);max-width:none;height:auto;border-bottom:1px solid #0002;padding-bottom:1rem}
+.aliados-track img{flex:0 0 auto;width:auto;max-width:min(280px,70vw);height:96px;object-fit:contain;margin-inline:1.5rem}
 @keyframes aliados-marquee{to{transform:translateX(-50%)}}
 
-.oferta{position:relative;text-align:center;color:#fff;padding:6.5rem 5vw 6rem;background:linear-gradient(#0a1d45cc,#0a1d45e6),url(../img/edificio.webp) center/cover}
+.oferta{position:relative;text-align:center;color:#fff;padding:6.5rem 5vw 6rem;background:linear-gradient(#0a1d45cc,#0a1d45e6),url(../img/edificio-nuevo.jpg) center/cover}
 .oferta::before,.oferta::after{content:"";position:absolute;left:-10%;right:-10%;height:140px;background:#fff;border-radius:50%}
 .oferta::before{top:-90px}.oferta::after{bottom:-90px}
 .serif-i{font-family:var(--serif);font-style:italic;font-size:2rem;opacity:.9}

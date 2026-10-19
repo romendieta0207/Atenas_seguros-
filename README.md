@@ -15,7 +15,7 @@ Abre `index.html` en el navegador, o ejecuta `python3 -m http.server 8000` y ent
 - `index.html`: contenido de la página
 - `css/styles.css`: estilos (colores y tipografías en `:root`)
 - `js/main.js`: animación de cifras
-- `img/`: imágenes optimizadas (WebP)
+- `img/`: fotografías optimizadas (JPG), logotipos y recursos gráficos (PNG/WebP)
 - `.github/workflows/pages.yml`: despliegue automático
 
 ## Pendiente de confirmar con el cliente
@@ -37,7 +37,7 @@ Estructura
 index.html: contenido de la página
 css/styles.css: estilos (colores y tipografías en :root)
 js/main.js: animación de cifras
-img/: imágenes optimizadas (WebP)
+img/: fotografías optimizadas (JPG), logotipos y recursos gráficos (PNG/WebP)
 .github/workflows/pages.yml: despliegue automático
 Pendiente de confirmar con el cliente
 Teléfono y enlace de WhatsApp (en el diseño aparece 099 854 544, que tiene 9 dígitos)
